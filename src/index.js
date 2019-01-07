@@ -2,6 +2,11 @@
 const express = require("express")
 const app = express()
 const port = process.env.port || 3000;
+const morgan = require("morgan")
+
+//Middlewares
+app.use(morgan("dev"))
+
 
 
 //Server initialized on port 3000
