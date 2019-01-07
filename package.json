@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/FacundoPalombo/Probando_Git#readme",
   "dependencies": {
-    "bootstrap": "^4.2.1",
     "express": "^4.16.4",
     "morgan": "^1.9.1"
   },
