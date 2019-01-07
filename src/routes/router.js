@@ -5,10 +5,6 @@ router.get("/", (req,res)=>{
     res.render("./")
 })
 
-router.get("/about", (req,res)=>{
-    res.send("./#about")
-})
-
 router.get("/who", (req,res)=>{
     res.send("./who.html")
 })
