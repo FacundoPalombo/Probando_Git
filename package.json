@@ -4,8 +4,7 @@
   "description": "'Esto es un proyecto de desafio de platzi, será un landing page sencillo'",
   "main": "index.js",
   "scripts": {
-
-    "dev" : "nodemon src/index.js",
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +25,7 @@
   },
   "homepage": "https://github.com/FacundoPalombo/Probando_Git#readme",
   "dependencies": {
+    "bootstrap": "^4.2.1",
     "express": "^4.16.4",
     "morgan": "^1.9.1"
   },
