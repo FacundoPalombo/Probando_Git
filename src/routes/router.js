@@ -17,4 +17,8 @@ router.get("/prices", (req,res)=>{
     res.send("Esta solicitando la pagina de PRICES")
 })
 
+router.get("*",(req,res)=>{
+    res.send("Nothing to do here! v:")
+})
+
 module.exports = router;
