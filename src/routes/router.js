@@ -16,6 +16,9 @@ router.get("/who", (req,res)=>{
 router.get("/prices", (req,res)=>{
     res.send("./prices.html")
 })
+router.get("/FAQ",(req,res)=>{
+    res.send("./FAQ.html")
+})
 
 router.get("*",(req,res)=>{
     res.send("Nothing to do here! v:")
