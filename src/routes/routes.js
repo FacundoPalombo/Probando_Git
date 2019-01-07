@@ -12,3 +12,5 @@ router.get("/about", (req,res)=>{
 router.get("/who", (req,res)=>{
     res.send("Esta solicitando la pagina de WHO WE ARE!")
 })
+
+module.exports = router;
