@@ -6,15 +6,15 @@ router.get("/", (req,res)=>{
 })
 
 router.get("/about", (req,res)=>{
-    res.send("Esta solicitando la pagina ABOUT")
+    res.send("./#about")
 })
 
 router.get("/who", (req,res)=>{
-    res.send("Esta solicitando la pagina de WHO WE ARE")
+    res.send("./who.html")
 })
 
 router.get("/prices", (req,res)=>{
-    res.send("Esta solicitando la pagina de PRICES")
+    res.send("./prices.html")
 })
 
 router.get("*",(req,res)=>{
