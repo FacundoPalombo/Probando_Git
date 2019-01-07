@@ -22,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/FacundoPalombo/Probando_Git/issues"
   },
-  "homepage": "https://github.com/FacundoPalombo/Probando_Git#readme"
+  "homepage": "https://github.com/FacundoPalombo/Probando_Git#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
 }
