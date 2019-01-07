@@ -1,0 +1,26 @@
+{
+  "name": "probando_git",
+  "version": "1.0.0",
+  "description": "'Esto es un proyecto de desafio de platzi, será un landing page sencillo'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FacundoPalombo/Probando_Git.git"
+  },
+  "keywords": [
+    "\"landing",
+    "page\"",
+    "test",
+    "git",
+    "curso"
+  ],
+  "author": "Facundo Palombo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FacundoPalombo/Probando_Git/issues"
+  },
+  "homepage": "https://github.com/FacundoPalombo/Probando_Git#readme"
+}
