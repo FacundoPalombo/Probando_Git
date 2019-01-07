@@ -3,6 +3,10 @@ const express = require("express")
 const app = express()
 const port = process.env.port || 3000;
 const { router } = require("./routes/router")
+const path=require("path")
+
+//Static Files
+app.use(express.static(path.join(__dirname , "public")))
 
 //Routes
 app.use("/" , router);
