@@ -3,7 +3,7 @@ const express = require("express")
 const app = express()
 const port = process.env.port || 3000;
 const morgan = require("morgan")
-const { router } = require("./routes/router")
+const router = require("./routes/router")
 
 
 //Middlewares
