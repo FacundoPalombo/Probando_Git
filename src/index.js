@@ -10,6 +10,9 @@ const path = require("path")
 //Middlewares
 app.use(morgan("dev"))
 
+//Static Files
+app.use(express.static(path.join(__dirname , "public")))
+
 //Routes
 app.use("/" , router);
 
